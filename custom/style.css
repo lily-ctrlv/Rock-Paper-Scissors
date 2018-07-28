@@ -1,0 +1,43 @@
+body {
+  background: #f48c42;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+/* #rps {
+  background: white;
+  width: 400px;
+
+} */
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  min-height: 400px;
+}
+/*
+table {
+  text-align: center;
+} */
+h1 {
+  font-size: 50px;
+}
+img {
+  padding: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+/* td {
+  height: 70px;
+  width: 70px;
+} */
+
+img:hover {
+  transform: scale(1.4);
+  transition: all 0.5s;
+}
